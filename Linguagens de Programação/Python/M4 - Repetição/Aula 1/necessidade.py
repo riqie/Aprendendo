@@ -1,0 +1,2 @@
+# ao programar, para economizarmos tempo e sermos logiocs, é necessario muitas vezes usar comandos de repetição. 
+# ao invés de escrever "print" 100 vezes, podemos apenas usar um comando de repetição, facilitando a nossas vidas!

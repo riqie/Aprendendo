@@ -1,0 +1,5 @@
+Perceba que todos os arquivos possuem um caminho "package", pois agora eles estao todos organizados de forma personalizada.
+
+Como fiz isso?
+
+Primeiro, dentro da pasta scr, crieuma pasta/folder com o nome do tipo de arquivo, por ex: "com" para comercial, "edu" para educação, "org" para organização, entre outros, deixe de forma intuitiva. Após, dentro da pasta criada, faça novamente, porém agora nomeia com o seu nome. Depois, faça o procedimento novamente e nomeie da forma como achar melhor sua organização.

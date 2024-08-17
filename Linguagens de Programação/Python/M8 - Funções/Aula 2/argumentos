@@ -1,0 +1,5 @@
+evitar variáveis globais, por que?
+dificultam a compreensão, a manutenção e o reuso da função
+
+internaliza informações externas
+variaveis locais informadas no inicio
