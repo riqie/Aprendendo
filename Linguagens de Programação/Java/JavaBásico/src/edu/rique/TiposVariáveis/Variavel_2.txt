@@ -1,0 +1,8 @@
+Cada linguagem possui um nível de tipagem, isto é, facilidade de mudar o tipo de uma variável. No caso do Java, sua linguagem é fortemente tipada, ex:
+
+    1   short numeroCurto = 1;
+    2   int numeroNormal = numeroCurto;
+    3   short numeroCurto2 = numeroNormal;
+    4
+
+Em Java, este exemplo resultará em um erro de lógica. Faça o exemplo.
