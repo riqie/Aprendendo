@@ -1,0 +1,11 @@
+Operadores:
+
+-> (+) torna os números positivos
+
+-> (-) torna os números negativos
+
+-> (++) incrementa 1 unidade
+
+-> (--) decrementa 1 unidade
+
+-> (!) nega o valor de uma expressão lógica
