@@ -13,5 +13,11 @@ public class TiposVariaveis {
         
         final double VALOR_DE_PI = 3.14;
         // esta constante não pode ser alterada ao longo do código
+        System.out.println(salarioMinimo);
+        System.out.println(numeroCurto);
+        System.out.println(numeroNormal);
+        System.out.println(numeroCurto2);
+        System.out.println(numero);
+        System.out.println(VALOR_DE_PI);
     }
 }
