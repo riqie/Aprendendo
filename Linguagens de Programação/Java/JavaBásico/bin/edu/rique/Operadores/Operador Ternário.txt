@@ -1,0 +1,8 @@
+O operador ternário é uma forma resumida de definir uma condição e escolher por um dentre dois valores. Condição ternária é como se fosse um IF normal, porém em uma única linha.
+
+Operador é rpresentado por "?:"
+Sintaxe:
+
+<expressao condicional> ? <caso seja true> : <caso seja false>
+
+veja o exemplo no código.

@@ -1,0 +1,39 @@
+
+.    Para deixar os seus códigos digamos que legíveis para todos, é bom sempre usarmos padrões universais que são utilizados na liguagemm Java, por exemplo:
+
+Variáveis:
+    -> Deve ser clara, objetiva, sem abreviações;
+    -> Sempre no singular, a nao ser que seja um array ou coleção;
+    -> Defina um idioma único para suas variáveis;
+
+    Exemplos Ruins:
+        1   double salMedio = 1500.23;
+        2   String emails = "aluno123@gmail.com";
+        3   String myName = "Josué Figueredo";
+
+    Exemplos Bons:
+        1   double salarioMedio = 1500.23;
+        2   String email = "aluno123@gmail.com";
+        3   String emails = "aluno123@gmail.com", "aluno321@gmail.com";
+        4   String myName = "Annie Mars"
+
+Métodos:
+    -> Sempre nomeados como verbos;
+    -> Não usar símbolos ou acentuação;
+    -> Começar com letra minúscula, a segunda palavra com letra maiúscula;
+    -> Os métodos poem ser nomeados em inglês, porém não é recomendado;
+    -> Não possuir duplo sentido;
+    
+    Exemplos Recomendados:
+        1   soma(int n1, int n2) {}
+        2
+        3   abrirConexao() {}
+        4
+        5   concluirProcessamento() {}
+        6
+
+    Exemplos Não Recomendados:
+        1   findById(int id) {}
+        2
+        3   calcularImprimir() {}
+        4   

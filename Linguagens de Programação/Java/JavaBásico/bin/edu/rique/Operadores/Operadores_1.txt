@@ -1,0 +1,23 @@
+Operadores:
+
+Lógicos:
+    Operador    Comparação
+
+    ==             igual
+    !=           diferente
+    <              menor
+    >              maior
+    <=          menor igual
+    >=          maior igual
+    =           atribuição
+    &&               e
+    ||              ou              
+
+Aritméticos:
+    Operador    Comparação
+
+       +          adição
+       -         subtração
+       *       multiplicação
+       /          divisão
+       %       resto divisão

@@ -1,0 +1,9 @@
+Parecida com a variável, as constantes também armazenam informações/dados em um local da memória do sistema, porém há um detalhe importante que diferencia uma constante de uma variável. As Constantes não podem ser modificadas!
+
+Definição:
+
+    <final> <TIPO> <NOME EM CAIXA ALTA> <VALOR>
+    
+    ex:
+
+    final Float ALTURA = 1.70

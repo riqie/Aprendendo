@@ -1,0 +1,10 @@
+A variável é uma identificação de um espaço em memória utilizado pelo programa. Toda variável é composta por: tipo + identificação + valor.
+
+Estrutura padrão para declarar variáveis:
+    <TIPO> <NOME> <VALOR>
+    Ex:
+    Float Altura = 1.70
+
+OBS: Em outras linguagens, como Python, não é necessário declarar o tipo, ele automáticamente já entende seu tipo pelo valor fornecido.
+
+

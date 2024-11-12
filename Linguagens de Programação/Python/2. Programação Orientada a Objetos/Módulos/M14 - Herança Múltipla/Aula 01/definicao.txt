@@ -1,0 +1,5 @@
+1. costruir a ideia de interface:
+    1.1 herança multipla
+    1.2 mostrar um problema sério
+    1.3 ver soluções não recomendadas
+    1.4 demonstrar interface como solução

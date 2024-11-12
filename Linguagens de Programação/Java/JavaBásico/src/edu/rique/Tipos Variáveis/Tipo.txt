@@ -1,0 +1,29 @@
+Toda linguagem de programação possui seus tipos e variáveis. 
+
+Em Java não é diferente, a linguagem possui 8 tipos não objetos, representam valor bruto e estão armazenados diretamente na pilha de memória:
+
+Tipo Primitivos:
+
+    Int : valores inteiros (32-bit)
+    Byte : valores inteiros (8-bit)
+    Short : valores inteiros (16-bit)
+    Long : valores inteiros (64-bit)
+
+    Float : valor em ponto flutuante (32-bit)
+    Double : valor em ponto flutuante (64-bit)
+
+    Boolean : valor lógico (True/False)
+    Char : valor caractere (16-bit)
+
+Tipos Não Primitivos:
+
+    String : valor de texto 
+    Arrays : lista de elementos
+    Class : esquema de um objeto
+    Interface : uma coleção de métodos abstratos
+
+    ex:
+
+    String Saudacao = "Oi, meu nomé é henrique, muito prazer!";
+    int[] meusNumeros = {1, 2, 3, 4, 5};
+    ArrayLista<String> minhaLista = new ArrayLista<String>();

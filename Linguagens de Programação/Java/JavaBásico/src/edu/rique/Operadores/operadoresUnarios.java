@@ -7,7 +7,7 @@ public class operadoresUnarios {
         System.out.println(- numero);
         System.out.println(numero);
         System.out.println(numero --);
-        System.out.println(numero ++);
+        // System.out.println(numero ++);
         System.out.println(-- numero);
         System.out.println(++ numero );
         
