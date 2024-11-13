@@ -1,0 +1,15 @@
+Identificar a localização mais conveniente para a escrita de algoritmos necssário para o noso programa, ou seja, escopo é o local onde esta guardado o nosso programa no computador.
+
+exemplo:
+
+Meu PC/ usuario/ escola/ materias/ biologia
+
+a pasta biologia é um escopo que guarda aoenas informações sobre biologia, já o escopo "matérias" guarda infromações sobre as matérias da escola.
+
+quais sao os 3 tipos de escopos?
+
+    - escopo de classe
+    - escopo de metodos
+    - escopo de fluxos
+
+

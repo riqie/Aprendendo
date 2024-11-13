@@ -1,0 +1,46 @@
+em java a documentação é bem rica
+
+podemos explorar todos os recursos da linguagem, podendo aprender a linguagem Java sem precisar codar 1 linha!
+
+estudar a documentação das principal classe:
+
+string
+
+tags?
+    classes documentadas na linguagem, com as tags podemos por exemplo: determinar 
+
+        autor -> @author
+        
+        versao -> @version
+        
+        data de inicio -> @since
+        
+        descrição dos parametros -> @param
+
+        definição do tipo de retorn -> @return
+
+        se o metodo lança alguma excessao -> @throws
+
+tipos de comentarios:
+
+    one line 
+
+    multi line
+
+    documentation
+
+exemplos:
+
+    one line - //
+
+    multi line - /*   * * * */
+
+    documentation - /**   * * * */
+
+javadoc
+
+    gerador de documentação para documentar a API dos programas em JAva a partir do codigo-fonte
+
+    para criar, execute o comando no terminal:
+
+    javadoc-encoding UTF-8 -docencoding ISO-8859-1 -d ../docs scr/*.java

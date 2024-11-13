@@ -1,0 +1,67 @@
+Definição:
+
+    - Uma classe é definida por atributos e métodos.
+
+    - Atributos são variáveis de diferentes tipos e valores. Já os métodos correspondem as funções ou sub-rotinas disponíveis dentro das classes.
+
+Critérios de Nomeação de Métodos:
+
+    - Nomeado com verbo;
+    - seguir padrao camelCase: registrarFuncionario;
+
+exemplos:
+
+    - concluirProcessamento()
+
+    - forma errada (dualismo): calcularImprimir()
+
+    - findById()
+
+
+OBS: Em Java não existem métodos globais!
+
+
+
+refelxão:
+
+    qual a proposta principal do metodo?
+
+    qual o retorno deste método?
+
+    quais parametros serao necessarios para sua execução?
+
+    pode apresentar alguma excessao?
+
+    qual a visibilidade do método? ex: publico ou privado...?
+
+Exemplos de Métodos:
+
+public class MyClass {
+
+    public double somar(int numero1, int numero2){
+
+        return ... ;
+    }
+
+    public void imprimir(String texto){}
+
+    public double dividir(int dividendo, int divisor) throws Exception{}
+
+    private void metodoPrivado(){}
+
+    public void validar(){
+        // pode retornar true ou false
+        return True
+        return False
+    }
+
+    public void gravarCliente(string nome, int idade, string cpf){}
+
+    public void gravarCliente(Cliente cliente){}
+
+    public void gravar(Cliente cliente){}
+
+}
+
+
+

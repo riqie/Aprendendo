@@ -1,0 +1,30 @@
+O escopo pode ser entendido como o ambiente onde uma variavel pode ser acessada. Em java, o escopo de variaveis vai de acordo com o bloco onde ela foi declarada.
+
+por exemplo:
+
+caso uma vriavel seja declarada dentro de uma função ou metodo, ela apenas existira naquele contexto, caso a função chegue ao seu fim, aquela variavel deixara de existir, a não ser que ela seja retornada.
+
+na pratica:
+
+public class Conta {
+    double saldo = 10.0;
+
+    public void sacar(Double valor){
+        double novoSaldo = saldo - valor;
+    }
+
+    public void imprimirSaldo(){
+        System.out.printIn(saldo);
+        System.out.printIn(novoSaldo);
+    }
+
+    public double calcularDividaExponencial(){
+        
+        double valorParcela = 50.0
+        double valorMontante = 0.0
+
+        for (int x = 1; x<=5; x++){
+            double valorCalculado = valorParcela * x; valorMontante = valorMontante + valorCalculado;
+        }
+    }
+}

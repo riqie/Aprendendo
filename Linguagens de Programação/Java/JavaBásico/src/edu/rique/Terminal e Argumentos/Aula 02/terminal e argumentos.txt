@@ -1,0 +1,4 @@
+nao executamos a aplicação no vs code em si, mas sim, em um executavel que enviamos para o cliente.
+
+vamos lá.
+

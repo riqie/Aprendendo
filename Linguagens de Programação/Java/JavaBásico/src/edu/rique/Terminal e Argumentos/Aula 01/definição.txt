@@ -1,0 +1,12 @@
+explorar entrada e saida de dados em uma aplicação java
+
+
+
+mains args
+
+scanner
+
+execução via IDE
+
+execução via prompt de comando
+
