@@ -73,18 +73,23 @@ class GraphAM:
             print(f"O vértice {vertex} não existe no grafo.")
 
     def print_graph(self):
-        """
-        Imprime a matriz de adjacência do grafo.
-        """
-        print("\nVértices: ", end="")
+        """Imprime a matriz de adjacência do grafo."""
+        
+        # Imprime os vértices na linha de cabeçalho
+        print("\nMatriz de Adjacência:")
+        print("  ", end="")  # Espaço inicial para alinhamento
+
         for vertex in self.__listOfVertex:
             print(f"\t{vertex}", end="")
+        print()
 
-        print("\n\nMatriz de Adjacência:")
+        # Imprime a matriz de adjacência com os vértices na coluna de cabeçalho
         for i in range(self.__n):
-            print(f"{self.__listOfVertex[i]}", end=" ")
+            print(f"{self.__listOfVertex[i]}", end=" ")  # Vértice na coluna
 
             for j in range(self.__n):
                 print(f"\t{self.__g[i][j]}", end="")
+
             print()
         print()
+
