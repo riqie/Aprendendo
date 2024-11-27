@@ -1,2 +1,48 @@
+# Ignore bytecode do Python
+*.pyc
+*.pyo
+*.pyd
 
-Linguagens de Programação/Python/2. Programação Orientada a Objetos/Módulos/M7 - S(O)LID/Aula 03/
+# Ignore diretório de cache do Python
+__pycache__/
+
+# Ignore logs e banco de dados do Django
+*.log
+*.sqlite3
+
+# Ignore diretórios de ambiente virtual
+venv/
+ENV/
+env/
+.venv/
+.ENV/
+.venv/
+
+# Ignore arquivos de configuração do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignore bibliotecas e dependências de pacotes
+node_modules/
+npm-debug.log
+
+# Ignore pastas temporárias
+.tmp/
+.temp/
+
+# Ignore arquivos de IDEs
+.vscode/
+.idea/
+*.swp
+
+# Ignore arquivos de teste de cobertura
+htmlcov/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+
+# Ignore arquivos de build
+build/
+dist/
+*.egg-info/
