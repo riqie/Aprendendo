@@ -1,22 +1,19 @@
 from graphAL import GraphAL
 
-# Cria um grafo
-g = GraphAL()
 
-# Adiciona vértices
-g.add_vertex('A')
-g.add_vertex('B')
-g.add_vertex('C')
-g.add_vertex('D')
-g.add_vertex('E')
+# Exemplo de uso
+grafo = GraphAL()
+grafo.add_vertex('a')
+grafo.add_vertex('b')
+grafo.add_vertex('c')
 
-# Adiciona arestas
-g.add_edge('A', 'B')
-g.add_edge('A', 'C')
-g.add_edge('B', 'C')
-g.add_edge('C', 'D')
-g.add_edge('D', 'E')
-g.add_edge('E', 'A')
+grafo.add_edge('a', 'b')
+grafo.add_edge('a', 'c')
+grafo.add_edge('b', 'c')
 
-# Imprime o grafo
-g.print_graph()
+grafo.print_graph()
+
+grafo.remove_vertex('b')
+
+grafo.print_graph()
+
